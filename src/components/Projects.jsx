@@ -2,6 +2,7 @@ import { useRevealOnScroll } from "../useRevealOnScroll";
 import naturehubCover from "../images/instagramg3.png";
 import skincareCover from "../images/facebook4.png";
 import tiktokCover from "../images/tiktok.png";
+import folaigniteCover from "../images/discord.png";
 
 function Projects() {
   const { ref, visible } = useRevealOnScroll();
@@ -157,6 +158,52 @@ function Projects() {
             <p>
               <strong>Business Impact:</strong> Rapid brand awareness expansion
               and accelerated audience acquisition.
+            </p>
+          </div>
+        </article>
+
+        {/* Case Study 4 */}
+        <article className="project-card">
+          <div className="project-card-media">
+            <div className="project-media-frame project-media-frame--discord">
+              <img
+                src={folaigniteCover}
+                alt="Folaignite Discord community management campaign"
+                className="project-media-image"
+              />
+              <p className="project-media-label">
+                Discord server structure &amp; engagement systems preview
+              </p>
+            </div>
+          </div>
+
+          <div className="project-card-content">
+            <h3>Discord Community Management — Folaignite</h3>
+
+            <div className="growth-highlight">
+              Active Community Growth · Structured Engagement Systems · Member Retention Optimization
+            </div>
+
+            <p>
+              <strong>Objective:</strong> Build and manage a thriving Discord community 
+              with clear structure, engagement systems, and member retention strategies.
+            </p>
+
+            <p>
+              <strong>Strategy:</strong> Designed server architecture with organized channels, 
+              role systems, and engagement frameworks that encourage participation and 
+              community-driven discussions.
+            </p>
+
+            <p>
+              <strong>Execution:</strong> Implemented structured onboarding flows, 
+              regular community events, engagement prompts, and moderation systems 
+              to maintain a positive, active environment.
+            </p>
+
+            <p>
+              <strong>Business Impact:</strong> Created a sustainable community platform 
+              with high member retention, active participation, and scalable engagement systems.
             </p>
           </div>
         </article>

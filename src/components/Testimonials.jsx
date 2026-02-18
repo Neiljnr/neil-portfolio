@@ -42,9 +42,9 @@ function Testimonials() {
             practical way to track what was actually working.&quot;
           </p>
           <p className="testimonial-meta">
-            <span className="testimonial-name">Founder</span>
+            <span className="testimonial-name">Founder,Bluehouse technologies </span>
             <span className="testimonial-role">
-              Early-stage SaaS product
+              Mbiplang Ardel 
             </span>
           </p>
         </article>
@@ -56,9 +56,9 @@ function Testimonials() {
             impacts the broader business goals.&quot;
           </p>
           <p className="testimonial-meta">
-            <span className="testimonial-name">Creative Director</span>
+            <span className="testimonial-name">Creative Director, Naturehub</span>
             <span className="testimonial-role">
-              Brand studio &amp; content agency
+              Justin Harvey
             </span>
           </p>
         </article>
