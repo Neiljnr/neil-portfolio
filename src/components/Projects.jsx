@@ -1,4 +1,7 @@
 import { useRevealOnScroll } from "../useRevealOnScroll";
+import natureHubImage from "../images/portf.png";
+import skincareImage from "../images/crud.png";
+import tiktokImage from "../images/tiktok.png";
 
 function Projects() {
   const { ref, visible } = useRevealOnScroll();
@@ -55,7 +58,11 @@ function Projects() {
 
           <div className="project-card-media">
             <div className="project-media-frame project-media-frame--naturehub">
-              <div className="project-media-window" />
+              <img
+                src={natureHubImage}
+                alt="Instagram content and landing page visuals for NatureHub campaign"
+                className="project-media-image"
+              />
               <p className="project-media-label">
                 Instagram reel &amp; carousel preview
               </p>
@@ -69,7 +76,7 @@ function Projects() {
             <h3>Paid Media Launch Campaign — Skincare Product</h3>
 
             <div className="growth-highlight">
-              4.5x ROAS · 200 Sales in First Month · 60% Increase in Qualified
+              4.5x ROAS · 50 Sales in First Month · 60% Increase in Qualified
               Traffic
             </div>
 
@@ -98,7 +105,11 @@ function Projects() {
 
           <div className="project-card-media">
             <div className="project-media-frame project-media-frame--skincare">
-              <div className="project-media-window" />
+              <img
+                src={skincareImage}
+                alt="Campaign dashboard and performance view for skincare launch"
+                className="project-media-image"
+              />
               <p className="project-media-label">
                 Ad creative &amp; carousel concepts
               </p>
@@ -138,7 +149,11 @@ function Projects() {
 
           <div className="project-card-media">
             <div className="project-media-frame project-media-frame--tiktok">
-              <div className="project-media-window" />
+              <img
+                src={tiktokImage}
+                alt="TikTok analytics and video performance chart"
+                className="project-media-image"
+              />
               <p className="project-media-label">
                 TikTok feed &amp; viral content preview
               </p>
