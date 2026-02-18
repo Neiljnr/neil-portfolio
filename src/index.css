@@ -492,7 +492,7 @@ strong {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  background-image: url("./images/WhatsApp Image 2025-08-24 at 02.28.33_dd90005b.jpg");
+  background-image: url("./images/img1.jpg");
 }
 
 .about-photo-meta {
@@ -627,17 +627,16 @@ strong {
 
 .project-card {
   position: relative;
-  padding: 22px 18px 20px;
+  padding: 18px 18px 16px;
   border-radius: var(--radius-xl);
   background:
     radial-gradient(circle at top left, var(--accent-soft), transparent 60%),
     rgba(15, 23, 42, 0.98);
   border: 1px solid rgba(148, 163, 184, 0.55);
   box-shadow: var(--shadow-soft);
-  display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.15fr);
-  gap: 18px;
-  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .project-card-content h3 {
@@ -652,7 +651,8 @@ strong {
 .project-media-frame {
   width: 100%;
   border-radius: 18px;
-  padding: 10px;
+  overflow: hidden;
+  padding: 0;
   background:
     radial-gradient(circle at top left, rgba(129, 140, 248, 0.35), transparent 60%),
     rgba(15, 23, 42, 0.97);
@@ -660,29 +660,34 @@ strong {
   box-shadow: var(--shadow-soft);
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .project-media-image {
   width: 100%;
-  border-radius: 14px;
-  border: 1px solid rgba(191, 219, 254, 0.8);
+  aspect-ratio: 16 / 10;
+  border-radius: 0;
+  border: 0;
   box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
   object-fit: cover;
-  max-height: 260px;
 }
 
 .project-media-label {
+  padding: 10px 12px 12px;
   font-size: 0.78rem;
   color: var(--text-muted);
+  margin: 0;
+}
+
+.project-media-frame--naturehub {
+  border-color: rgba(167, 139, 250, 0.75);
 }
 
 .project-media-frame--skincare .project-media-image {
-  border-color: rgba(254, 205, 211, 0.9);
+  box-shadow: 0 18px 40px rgba(251, 113, 133, 0.22);
 }
 
 .project-media-frame--tiktok .project-media-image {
-  border-color: rgba(191, 219, 254, 0.95);
+  box-shadow: 0 18px 40px rgba(59, 130, 246, 0.22);
 }
 
 /* -----------------------------

@@ -68,7 +68,7 @@ function Hero() {
               <div className="hero-panel-stat">
                 <span className="hero-panel-stat-label">Availability</span>
                 <span className="hero-panel-stat-value hero-panel-stat-pill">
-                  Open to U.S. remote contracts
+                  Open to remote contracts
                 </span>
               </div>
             </div>

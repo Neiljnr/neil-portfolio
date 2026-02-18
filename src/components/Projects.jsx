@@ -1,7 +1,7 @@
 import { useRevealOnScroll } from "../useRevealOnScroll";
-import natureHubImage from "../images/portf.png";
-import skincareImage from "../images/crud.png";
-import tiktokImage from "../images/tiktok.png";
+import naturehubCover from "../images/naturehub-cover.svg";
+import skincareCover from "../images/skincare-cover.svg";
+import tiktokCover from "../images/tiktok-cover.svg";
 
 function Projects() {
   const { ref, visible } = useRevealOnScroll();
@@ -24,6 +24,19 @@ function Projects() {
       <div className="projects-grid">
         {/* Case Study 1 */}
         <article className="project-card">
+          <div className="project-card-media">
+            <div className="project-media-frame project-media-frame--naturehub">
+              <img
+                src={naturehubCover}
+                alt="NatureHub Instagram growth campaign cover"
+                className="project-media-image"
+              />
+              <p className="project-media-label">
+                Instagram reels &amp; carousel system preview
+              </p>
+            </div>
+          </div>
+
           <div className="project-card-content">
             <h3>Instagram Growth &amp; Engagement Optimization — NatureHub</h3>
 
@@ -55,23 +68,23 @@ function Projects() {
               visibility.
             </p>
           </div>
-
-          <div className="project-card-media">
-            <div className="project-media-frame project-media-frame--naturehub">
-              <img
-                src={natureHubImage}
-                alt="Instagram content and landing page visuals for NatureHub campaign"
-                className="project-media-image"
-              />
-              <p className="project-media-label">
-                Instagram reel &amp; carousel preview
-              </p>
-            </div>
-          </div>
         </article>
 
         {/* Case Study 2 */}
         <article className="project-card">
+          <div className="project-card-media">
+            <div className="project-media-frame project-media-frame--skincare">
+              <img
+                src={skincareCover}
+                alt="Paid media launch campaign cover for a skincare product"
+                className="project-media-image"
+              />
+              <p className="project-media-label">
+                Creative tests, audiences &amp; performance dashboard
+              </p>
+            </div>
+          </div>
+
           <div className="project-card-content">
             <h3>Paid Media Launch Campaign — Skincare Product</h3>
 
@@ -102,23 +115,23 @@ function Projects() {
               accelerated product-market validation.
             </p>
           </div>
-
-          <div className="project-card-media">
-            <div className="project-media-frame project-media-frame--skincare">
-              <img
-                src={skincareImage}
-                alt="Campaign dashboard and performance view for skincare launch"
-                className="project-media-image"
-              />
-              <p className="project-media-label">
-                Ad creative &amp; carousel concepts
-              </p>
-            </div>
-          </div>
         </article>
 
         {/* Case Study 3 */}
         <article className="project-card">
+          <div className="project-card-media">
+            <div className="project-media-frame project-media-frame--tiktok">
+              <img
+                src={tiktokCover}
+                alt="TikTok community acceleration campaign cover"
+                className="project-media-image"
+              />
+              <p className="project-media-label">
+                Feed, hooks &amp; growth analytics preview
+              </p>
+            </div>
+          </div>
+
           <div className="project-card-content">
             <h3>TikTok Community Acceleration Campaign</h3>
 
@@ -145,19 +158,6 @@ function Projects() {
               <strong>Business Impact:</strong> Rapid brand awareness expansion
               and accelerated audience acquisition.
             </p>
-          </div>
-
-          <div className="project-card-media">
-            <div className="project-media-frame project-media-frame--tiktok">
-              <img
-                src={tiktokImage}
-                alt="TikTok analytics and video performance chart"
-                className="project-media-image"
-              />
-              <p className="project-media-label">
-                TikTok feed &amp; viral content preview
-              </p>
-            </div>
           </div>
         </article>
       </div>
