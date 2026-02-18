@@ -26,7 +26,7 @@ function Experience() {
               Social Media &amp; Community Manager
             </span>
             <span className="experience-company">NatureHub · Remote</span>
-            <span className="experience-date">Oct 2023 – Present</span>
+            <span className="experience-date">Oct 2023</span>
           </p>
           <ul className="experience-list">
             <li>
@@ -50,7 +50,7 @@ function Experience() {
             <span className="experience-company">
               Bluehouse Technologies · Remote
             </span>
-            <span className="experience-date">Jan 2025 – Present</span>
+            <span className="experience-date">Jan 2025</span>
           </p>
           <ul className="experience-list">
             <li>
@@ -76,7 +76,7 @@ function Experience() {
             <span className="experience-company">
               Innovate with Folashayo · Remote
             </span>
-            <span className="experience-date">Nov 2024 – Present</span>
+            <span className="experience-date">Nov 2024</span>
           </p>
           <ul className="experience-list">
             <li>

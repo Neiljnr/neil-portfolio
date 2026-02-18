@@ -1,7 +1,7 @@
 import { useRevealOnScroll } from "../useRevealOnScroll";
-import naturehubCover from "../images/naturehub-cover.svg";
-import skincareCover from "../images/skincare-cover.svg";
-import tiktokCover from "../images/tiktok-cover.svg";
+import naturehubCover from "../images/instagramg3.png";
+import skincareCover from "../images/facebook4.png";
+import tiktokCover from "../images/tiktok.png";
 
 function Projects() {
   const { ref, visible } = useRevealOnScroll();
