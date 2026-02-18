@@ -25,8 +25,8 @@ function Projects() {
             <h3>Instagram Growth &amp; Engagement Optimization — NatureHub</h3>
 
             <div className="growth-highlight">
-              +320% Reach Growth · 40%+ Engagement Increase · +5,000 Followers in
-              60 Days
+              42% Instagram engagement lift · 35% Facebook interaction growth ·
+              +5,000 followers in 60 days
             </div>
 
             <p>

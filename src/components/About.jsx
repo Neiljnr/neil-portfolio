@@ -16,16 +16,18 @@ function About() {
             <h2>Who I am</h2>
           </div>
           <p>
-            I’m a Community &amp; Social Media Manager with over three years of
-            experience building and scaling online communities across Instagram,
-            LinkedIn, X, and Facebook. I focus on structured content execution,
-            audience growth, and performance-driven engagement strategies.
+            I’m a Community &amp; Social Media Manager with several years of
+            experience building, managing, and scaling online communities across
+            Instagram, X (Twitter), LinkedIn, and Facebook. I blend content
+            strategy, short-form video, and clear storytelling to grow
+            audiences, not just impressions.
           </p>
           <p>
-            My work centers on creating systems that drive consistency and
-            measurable results — from content calendars and campaign rollouts to
-            community engagement frameworks and analytics optimization. I blend
-            creativity with data to help brands grow loyal, active audiences.
+            My work centers on creating systems that keep communities active and
+            brands top-of-mind — from content calendars and campaign rollouts to
+            engagement frameworks, live activations, and analytics tracking. I’m
+            comfortable working remotely, collaborating with creative teams, and
+            supporting fast-paced, culture-driven brands.
           </p>
           <ul className="about-tags">
             <li>Content strategy &amp; scheduling systems</li>

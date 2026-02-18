@@ -11,56 +11,56 @@ function Services() {
     >
       <div className="section-header">
         <p className="section-eyebrow">Services</p>
-        <h2 className="services__title">Strategic Growth Systems</h2>
+        <h2 className="services__title">Social &amp; Community Growth</h2>
         <p className="services__intro">
-          I design AI-powered workflows, community ecosystems, and scalable
-          content systems that drive measurable growth — without sacrificing
-          clarity or brand integrity.
+          I help brands design and run social media and community systems that
+          drive measurable engagement, strengthen loyalty, and support
+          performance goals.
         </p>
       </div>
 
       <div className="services__grid">
         <div className="service-card">
-          <h3>AI Prompt Architecture</h3>
+          <h3>Social Media Strategy &amp; Execution</h3>
           <p>
-            Structured prompt systems that increase output quality,
-            consistency, and operational efficiency.
+            End-to-end content planning, posting, and optimization across
+            Instagram, X (Twitter), LinkedIn, and Facebook.
           </p>
           <span className="service-card__tag">
-            AI Systems · Workflow Optimization
+            Content Calendars · Brand Voice
           </span>
         </div>
 
         <div className="service-card">
-          <h3>Community-Led Growth Strategy</h3>
+          <h3>Community Management &amp; Engagement</h3>
           <p>
-            Data-informed frameworks that build engaged ecosystems — not just
-            audiences.
+            Systems and campaigns that keep your community active, supported,
+            and connected to your brand long-term.
           </p>
           <span className="service-card__tag">
-            Retention · Engagement · Authority
+            Retention · Conversation · Trust
           </span>
         </div>
 
         <div className="service-card">
-          <h3>Content Infrastructure & Conversion</h3>
+          <h3>Content Creation &amp; Short-Form Video</h3>
           <p>
-            Scalable content systems engineered to convert attention into
-            trust, leads, and long-term equity.
+            Carousel posts, captions, and short-form videos (Reels &amp; TikTok)
+            tailored to your audience and campaign goals.
           </p>
           <span className="service-card__tag">
-            Positioning · Funnels · Optimization
+            Storytelling · Video Editing
           </span>
         </div>
 
         <div className="service-card">
-          <h3>Web & Digital Experience Design</h3>
+          <h3>Analytics, Reporting &amp; Optimization</h3>
           <p>
-            High-performance, conversion-focused digital environments aligned
-            with business strategy.
+            Regular reporting and insight-led adjustments using tools like Meta
+            Business Suite, Google Analytics, and platform analytics.
           </p>
           <span className="service-card__tag">
-            UX Strategy · Performance · Modern Stack
+            Performance Tracking · Iteration
           </span>
         </div>
       </div>

@@ -23,7 +23,7 @@ function Testimonials() {
       <div className="testimonials-grid">
         <article className="testimonial-card">
           <p className="testimonial-quote">
-            &quot;Neil quickly translated a loose idea into a clear social
+            &quot;Othniel quickly translated a loose idea into a clear social
             strategy. Engagement went up, but more importantly, our team had a
             repeatable system to follow.&quot;
           </p>
