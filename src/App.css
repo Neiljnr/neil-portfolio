@@ -1,0 +1,19 @@
+/* Root container reset */
+
+#root {
+  min-height: 100vh;
+}
+
+/* App wrapper (optional future control layer) */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure footer stays at bottom on short pages */
+
+main {
+  flex: 1;
+}
