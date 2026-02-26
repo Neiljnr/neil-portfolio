@@ -24,9 +24,9 @@ function Navbar() {
           </li>
 
           <li>
-            <a 
-              href="/Neil-Resume.pdf" 
-              target="_blank" 
+            <a
+              href="/Othniel-John-Resume.pdf"
+              target="_blank"
               rel="noopener noreferrer"
               className="navbar__resume"
             >

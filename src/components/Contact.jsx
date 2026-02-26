@@ -44,6 +44,17 @@ function Contact() {
             Share as much context as you like—what you&apos;re building, where
             you&apos;re stuck, and what would feel like a win.
           </p>
+          <p className="contact-meta">
+            <strong>Resume</strong>
+            <br />
+            <a
+              href="/Othniel-John-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download my resume
+            </a>
+          </p>
         </div>
 
         <form

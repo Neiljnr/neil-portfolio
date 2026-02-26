@@ -41,8 +41,13 @@ function Hero() {
             <a href="#projects" className="btn btn--primary">
               View case studies
             </a>
-            <a href="#contact" className="btn btn--ghost">
-              Hire me
+            <a
+              href="/Othniel-John-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn--ghost"
+            >
+              Download resume
             </a>
           </div>
         </div>

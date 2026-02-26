@@ -637,6 +637,16 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  transition:
+    transform 0.24s ease,
+    box-shadow 0.24s ease,
+    border-color 0.24s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-strong);
+  box-shadow: var(--shadow-elevated);
 }
 
 .project-card-content h3 {
@@ -703,17 +713,59 @@ strong {
 ------------------------------ */
 
 .experience-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
+  position: relative;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-grid::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 10px;
+  width: 2px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(
+    to bottom,
+    rgba(129, 140, 248, 0.7),
+    rgba(56, 189, 248, 0.4)
+  );
 }
 
 .experience-card {
-  padding: 20px 18px 18px;
+  position: relative;
+  padding: 18px 18px 18px 32px;
   border-radius: var(--radius-lg);
   background-color: rgba(15, 23, 42, 0.98);
   border: 1px solid rgba(148, 163, 184, 0.5);
   box-shadow: var(--shadow-soft);
+  transition:
+    transform 0.24s ease,
+    box-shadow 0.24s ease,
+    border-color 0.24s ease,
+    background-color 0.24s ease;
+}
+
+.experience-card::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 22px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 20%, #eef2ff, #4f46e5);
+  box-shadow: 0 0 0 4px rgba(129, 140, 248, 0.3);
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-strong);
+  background-color: rgba(15, 23, 42, 0.995);
+  box-shadow: var(--shadow-elevated);
 }
 
 .experience-meta {
@@ -816,6 +868,16 @@ strong {
     rgba(15, 23, 42, 0.98);
   border: 1px solid var(--border-subtle);
   box-shadow: var(--shadow-soft);
+  transition:
+    transform 0.24s ease,
+    box-shadow 0.24s ease,
+    border-color 0.24s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-strong);
+  box-shadow: var(--shadow-elevated);
 }
 
 .testimonial-quote {
@@ -899,6 +961,16 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  transition:
+    transform 0.24s ease,
+    box-shadow 0.24s ease,
+    border-color 0.24s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-strong);
+  box-shadow: var(--shadow-elevated);
 }
 
 .pricing-card--highlighted {
